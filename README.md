@@ -1,24 +1,32 @@
-# fold_my_paper
+# Fold my paper!
+How many times can you fold a sheet of paper?
+Experiments shows that any sheet of paper can me folded for maximum 7 times. This happens because the thickness of the paper becomes so hight that is impossibile to fold.
+
+This simple project show how much the thickness of the paper rises exponentially when folded and allow us to calculate what thickness we would have if we could fold it more than X times.
+
+Someone even says that if we fold a sheet of paper for 45 times, its thickness would be so hight that would cover the distance from Earth to the Moon. Let's try it!
 
 ## Project setup
+
+Install dependencies
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+Compiles and hot-reloads for development
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Screens
+Basic page
+![basic page](./public/screens/starting.jpeg)
 
-### Lints and fixes files
-```
-npm run lint
-```
+x20 folding
+![x20 foldings](./public/screens/folding_20.png)
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+x43 folding
+![x43 foldings](./public/screens/folding_43.png)
+
+x60 folding
+![x60 foldings](./public/screens/folding_60.png)
