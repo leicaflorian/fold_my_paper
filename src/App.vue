@@ -132,6 +132,7 @@ export default defineComponent({
         .reduce((acc) => acc * 2, 1)
     );
 
+    // finalThickness variables
     const finalThicknessUnit = ref("");
     const finalThickness = ref(0);
     const finalThicknessKm = ref(0);
